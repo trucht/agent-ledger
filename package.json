@@ -1,10 +1,15 @@
 {
   "name": "agent-ledger",
   "version": "1.0.0",
-  "description": "",
+  "description": "Shared budgets and execution traces for parallel AI agents (local prototype)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npm --prefix apps/web run dev --",
+    "build": "npm --prefix apps/web run build",
+    "lint": "npm --prefix apps/web run lint",
+    "test": "npm --prefix apps/web run test",
+    "test:watch": "npm --prefix apps/web run test:watch",
+    "preview": "npm --prefix apps/web run preview --"
   },
   "repository": {
     "type": "git",
